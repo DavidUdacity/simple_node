@@ -5,6 +5,8 @@ function sleep(ms) {
 async function main() {
   while(true) {
     console.log('Containers rule!');
+    const myAss = process.env.MYASS;
+    console.log(`My Ass is ${myAss}`);
     await sleep(5000);
   }
 }
